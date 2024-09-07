@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto"> <!-- Centering with mx-auto -->
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+          </ul>
+          <a class="nav-link custom-btn" href="#contact">Hire Me</a> <!-- Hire button here -->
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero bg-white text-center py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto">
+                    <img src="https://via.placeholder.com/150" class="img-fluid rounded-circle" alt="Profile Picture">
+                    <h1 class="mt-4">Your Name</h1>
+                    <p class="lead">Your Profession</p>
+                    <a href="#contact" class="btn btn-primary custom-btn">Hire Me</a>
+                    <p class="mt-3 note-text">Feel free to reach me out through the contact options below.</p>
+                    <div class="d-flex justify-content-center mt-3">
+                        <a href="mailto:youremail@example.com" class="mx-3 contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+1234567890" class="mx-3 contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="https://yourwebsite.com" target="_blank" class="mx-3 contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac velit quis velit pretium aliquam.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Skills</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle"></i> Web Development</li>
+                        <li><i class="fas fa-check-circle"></i> Graphic Design</li>
+                        <li><i class="fas fa-check-circle"></i> SEO Optimization</li>
+                        <li><i class="fas fa-check-circle"></i> Project Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <!-- Replace the following URL with your own profile picture -->
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Portfolio Item 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 1</h5>
+                            <p class="card-text">Brief description of the project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <!-- Replace the following URL with your own profile picture -->
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Portfolio Item 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 2</h5>
+                            <p class="card-text">Brief description of the project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <!-- Replace the following URL with your own profile picture -->
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Portfolio Item 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 3</h5>
+                            <p class="card-text">Brief description of the project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Client Testimonials</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <!-- Replace the following URL with your own profile picture -->
+                        <img src="https://via.placeholder.com/80" class="img-fluid rounded-circle mb-3" alt="Client 1">
+                        <p class="testimonial-text">"Working with you has been a fantastic experience. Your expertise and attention to detail are second to none!"</p>
+                        <p class="testimonial-author">Jane Stiles, CEO of Company</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <!-- Replace the following URL with your own profile picture -->
+                        <img src="https://via.placeholder.com/80" class="img-fluid rounded-circle mb-3" alt="Client 2">
+                        <p class="testimonial-text">"I am thrilled with the results of our project. Your dedication and professionalism were evident throughout."</p>
+                        <p class="testimonial-author">John Dalt, Marketing Director</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <!-- Replace the following URL with your own profile picture -->
+                        <img src="https://via.placeholder.com/80" class="img-fluid rounded-circle mb-3" alt="Client 3">
+                        <p class="testimonial-text">"Exceptional work and great communication. You delivered beyond our expectations. Highly recommend!"</p>
+                        <p class="testimonial-author">Daniel Kingsley, Freelancer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <p class="text-center mb-4">Feel free to reach out via email, visit my website, or give me a call.</p>
+
+            <div class="text-center mb-4">
+                <a class="btn btn-outline-primary btn-floating m-1" href="mailto:your-email@example.com" role="button" target="_blank" title="Email me">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+                <a class="btn btn-outline-primary btn-floating m-1" href="https://www.your-website.com" role="button" target="_blank" title="Visit my website">
+                    <i class="fas fa-globe"></i>
+                </a>
+
+                <a class="btn btn-outline-primary btn-floating m-1" href="tel:+1234567890" role="button" title="Call me">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+
+            <form id="contactForm">
+                <div class="form-group position-relative mb-4">
+                    <label for="name">Name</label>
+                    <i class="fas fa-user icon-input"></i>
+                    <input type="text" class="form-control pl-5" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group position-relative mb-4">
+                    <label for="email">Email address</label>
+                    <i class="fas fa-envelope icon-input"></i>
+                    <input type="email" class="form-control pl-5" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group mb-4">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+ 
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-light">
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
