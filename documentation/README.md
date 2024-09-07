@@ -10,6 +10,7 @@ This is a customizable portfolio template built with Bootstrap.
 
 ## Customization
 - CSS is located in `assets/css/custom.css`.
+- JS is located in `assets/css/custom.js`.
 - Bootstrap files are in `bootstrap/`.
 
 ## License
