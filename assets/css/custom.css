@@ -304,6 +304,6 @@ footer {
     }
     
     .desktop-hire-button {
-        display: block;
+        display: none; /* Remove button on small screen */
     }
 }
