@@ -1,6 +1,6 @@
 ## Download the Template
 
-To download the template, click [here](http://ayodaniel23.github.io/portfolio-zip/Portfolio.zip).
+To download the template, click [here](http://ayodaniel23.github.io/Portfolio/portfolio-zip.zip).
 
 ## Installation
 
