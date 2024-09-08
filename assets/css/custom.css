@@ -294,28 +294,25 @@ footer {
     color: #333; /* Dark text color for footer */
 }
 
-/* Hide the button on large screens */
-@media (min-width: 769px) {
-    .nav-link.custom-btn.d-none.d-lg-block {
-        display: block; /* Show button on large screens */
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center; /* Center align navbar links on small screens */
     }
-    .nav-item.d-lg-none {
-        display: none; /* Hide button in dropdown on large screens */
+
+    .nav-link {
+        padding: 0.5rem 1rem; /* Adjust padding for nav links on small screens */
+    }
+
+    .custom-btn {
+        display: block; /* Show the button in mobile view */
+        margin: 10px auto; /* Center the button and add margin */
     }
 }
 
-/* Mobile-specific adjustments */
-@media (max-width: 768px) {
-    .navbar-nav {
-        text-align: center; /* Center align items in dropdown */
-    }
-
-    .nav-item.d-lg-none {
-        margin: 0; /* Remove margin for better alignment */
-    }
-
-    .nav-item.d-lg-none .nav-link.custom-btn {
-        padding: 0.5rem 1rem; /* Adjust padding for mobile */
-        display: none; /* Ensure button is displayed as block */
+/* Media Query for Large Screens */
+@media (min-width: 769px) {
+    .custom-btn {
+        display: block; /* Show the button on larger screens */
     }
 }
