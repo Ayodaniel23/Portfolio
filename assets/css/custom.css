@@ -316,6 +316,6 @@ footer {
 
     .nav-item.d-lg-none .nav-link.custom-btn {
         padding: 0.5rem 1rem; /* Adjust padding for mobile */
-        display: block; /* Ensure button is displayed as block */
+        display: none; /* Ensure button is displayed as block */
     }
 }
