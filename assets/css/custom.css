@@ -293,17 +293,23 @@ footer {
     color: #333; /* Dark text color for footer */
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .navbar-nav {
-        text-align: center; /* Center align navbar links on small screens */
+/* Hide the button on large screens */
+@media (min-width: 769px) {
+    .nav-link.custom-btn.d-none.d-lg-block {
+        display: block; /* Show button on large screens */
     }
+    .nav-item.d-lg-none {
+        display: none; /* Hide button in dropdown on large screens */
+    }
+}
 
-    .nav-link {
-        padding: 0.5rem 1rem; /* Adjust padding for nav links on small screens */
+/* Adjust button padding and alignment in dropdown menu for mobile view */
+@media (max-width: 768px) {
+    .nav-item.d-lg-none {
+        text-align: center; /* Center align items in dropdown */
     }
-    
-    .desktop-hire-button {
-        display: none; /* Remove button on small screen */
+    .nav-item.d-lg-none .nav-link.custom-btn {
+        padding: 0.5rem 1rem; /* Adjust padding for better spacing */
+        display: block; /* Ensure the button displays as block in dropdown */
     }
 }
