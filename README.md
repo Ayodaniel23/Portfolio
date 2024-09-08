@@ -1,17 +1,18 @@
-# Portfolio Template
+## Download the Template
 
-## Introduction
-This is a customizable portfolio template built with Bootstrap.
+To download the template, click [here](http://ayodaniel23.github.io/portfolio-zip/Portfolio.zip).
 
 ## Installation
-1. Download the template.
-2. Extract the files.
-3. Open `index.html` in your browser to view the template.
+
+1. Download and extract the ZIP file.
+2. Open `index.html` in your browser to view the template.
 
 ## Customization
+
 - CSS is located in `assets/css/custom.css`.
 - JS is located in `assets/js/custom.js`.
 - Bootstrap files are in `bootstrap/`.
 
 ## License
+
 This template is licensed under the [MIT License](LICENSE.md).
