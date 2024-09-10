@@ -159,6 +159,59 @@ body {
     margin-bottom: 1.5rem; /* Space below card components */
 }
 
+#portfolio {
+  position: relative;
+}
+
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  gap: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item {
+  flex: 0 0 auto;
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  background-color: #f0f0f0; /* Placeholder color */
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.scroll-btn-left {
+  left: 10px;
+}
+
+.scroll-btn-right {
+  right: 10px;
+}
+
+.scroll-btn i {
+  font-size: 24px;
+  color: #333;
+}
+
 /* Testimonials Section Styles */
 .testimonial {
     background-color: white; /* White background for testimonials */
