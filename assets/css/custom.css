@@ -308,6 +308,11 @@ footer {
         display: block; /* Show the button in mobile view */
         margin: 10px auto; /* Center the button and add margin */
     }
+
+    .card-img-top {
+        height: 200px; /* Ensure image fits within smaller screens */
+        object-fit: cover; /* Maintain aspect ratio */
+    }
 }
 
 /* Media Query for Large Screens */
