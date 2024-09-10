@@ -159,57 +159,56 @@ body {
     margin-bottom: 1.5rem; /* Space below card components */
 }
 
-#portfolio {
+.portfolio {
   position: relative;
+  overflow: hidden;
 }
 
 .portfolio-container {
   display: flex;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
-}
-
-.portfolio-wrapper {
-  display: flex;
-  gap: 1rem;
-  transition: transform 0.3s ease;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px; /* Adjust spacing between items */
 }
 
 .portfolio-item {
   flex: 0 0 auto;
-  width: 200px; /* Adjust width as needed */
-  height: 200px; /* Adjust height as needed */
-  background-color: #f0f0f0; /* Placeholder color */
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 300px; /* Adjust width as needed */
 }
 
-.scroll-btn {
+.portfolio-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.scroll-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #fff;
+  background: #333;
+  color: white;
   border: none;
   border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  z-index: 10;
+  z-index: 1;
 }
 
-.scroll-btn-left {
+.scroll-arrow.left {
   left: 10px;
 }
 
-.scroll-btn-right {
+.scroll-arrow.right {
   right: 10px;
-}
-
-.scroll-btn i {
-  font-size: 24px;
-  color: #333;
 }
 
 /* Testimonials Section Styles */
