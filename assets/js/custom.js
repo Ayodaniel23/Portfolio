@@ -5,3 +5,24 @@ $(document).ready(function() {
       }
     });
   });
+  document.addEventListener('DOMContentLoaded', () => {
+    const wrapper = document.querySelector('.portfolio-wrapper');
+    const scrollLeftBtn = document.querySelector('.scroll-btn-left');
+    const scrollRightBtn = document.querySelector('.scroll-btn-right');
+    
+    const scrollAmount = 220; // Adjust based on item width
+
+    scrollLeftBtn.addEventListener('click', () => {
+      wrapper.scrollBy({
+        left: -scrollAmount,
+        behavior: 'smooth'
+      });
+    });
+
+    scrollRightBtn.addEventListener('click', () => {
+      wrapper.scrollBy({
+        left: scrollAmount,
+        behavior: 'smooth'
+      });
+    });
+  });
