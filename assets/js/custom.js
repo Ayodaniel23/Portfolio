@@ -1,16 +1,17 @@
-$(document).ready(function() {
+  $(document).ready(function() {
+    // Close the navbar on click for mobile view
     $('.navbar-nav .nav-link').on('click', function() {
       if ($('.navbar-toggler').is(':visible')) {
         $('.navbar-collapse').collapse('hide');
       }
     });
-  });
-  document.addEventListener('DOMContentLoaded', () => {
-    const wrapper = document.querySelector('.portfolio-wrapper');
-    const scrollLeftBtn = document.querySelector('.scroll-btn-left');
-    const scrollRightBtn = document.querySelector('.scroll-btn-right');
-    
-    const scrollAmount = 220; // Adjust based on item width
+
+    // Smooth horizontal scrolling for the portfolio section
+    const wrapper = document.querySelector('.portfolio-container');
+    const scrollLeftBtn = document.querySelector('.scroll-arrow.left');
+    const scrollRightBtn = document.querySelector('.scroll-arrow.right');
+
+    const scrollAmount = 300; // Adjust based on item width
 
     scrollLeftBtn.addEventListener('click', () => {
       wrapper.scrollBy({
